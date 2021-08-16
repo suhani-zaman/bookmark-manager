@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/kushboozaman/Projects/week4/bookmark-manager/spec/features/viewing_bookmark_spec.rb": {
+      "/Users/eb/Projects/week4/bookmark-manager/spec/features/viewing_bookmark_spec.rb": {
         "lines": [
           1,
           1,
@@ -18,6 +18,6 @@
         ]
       }
     },
-    "timestamp": 1629125791
+    "timestamp": 1629127474
   }
 }

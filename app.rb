@@ -1,7 +1,7 @@
 require "sinatra"
 require "sinatra/base"
 require "sinatra/reloader" if development?
-require './lib/bookmark.rb'
+require 'bookmark'
 
 class BookmarkManager < Sinatra::Base
   configure :development do
