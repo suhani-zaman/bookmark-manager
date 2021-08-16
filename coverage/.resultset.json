@@ -1,0 +1,23 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/kushboozaman/Projects/week4/bookmark-manager/spec/features/viewing_bookmark_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1629125791
+  }
+}
