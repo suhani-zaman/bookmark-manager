@@ -1,9 +1,11 @@
 ENV['RACK_ENV'] = 'test'
+ENV['ENV'] = 'test'
 require File.join(File.dirname(__FILE__), '..', 'app.rb')
 require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
 require 'simplecov'
+require 'pg'
 # require'simplecov-console'
 
 Capybara.app = BookmarkManager
@@ -43,6 +45,12 @@ RSpec.configure do |config|
     #     # => "be bigger than 2"
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
   end
+  # config.before(:each) do
+  #   conn = PG.connect( dbname: 'bookmark_manager_test')
+  #   res = conn.exec()
+  #   ENV['ENV'] = 
+  
+  # end
 
   # rspec-mocks config goes here. You can use an alternate test double
   # library (such as bogus or mocha) by changing the `mock_with` option here.
@@ -114,3 +122,4 @@ RSpec.configure do |config|
   Kernel.srand config.seed
 =end
 end
+
