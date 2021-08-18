@@ -12,8 +12,9 @@ describe Bookmark do
 
   describe '#self.add' do
     it 'adds a bookmark' do
-      Bookmark.add('bookmark')
-      expect(bookmarks).to include('bookmark')
+      Bookmark.add('www.amazon.com','Amazon')
+      expect(bookmarks).to include('www.amazon.com')
+      expect(bookmarks).to include('Amazon')
     end
   end
 end
